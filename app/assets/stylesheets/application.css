@@ -11,3 +11,162 @@
  *= require_self
  *= require_tree .
  */
+
+.center{
+  text-align:center;
+}
+
+.background{
+  width: 100%;
+  height: 100%;
+  background-color: #333333;
+  padding: 0;
+  margin: 0;
+}
+
+.all-content{
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  margin-top: 20px;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+
+  box-shadow: 0px 0px 0px white;
+  border: 2px solid;
+  border-color: white;
+  border-radius: 10px;
+}
+
+.logo{
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+.header{
+  width: 100%;
+}
+
+.main-content{
+  width: 100%;
+  height: 500px;
+  background-color: white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.paragraph{
+  margin: 0 30px 0 30px; 
+}
+
+.excerpt {
+  font-size: 1.1em;
+  line-height: 1.25em;
+  margin: 1.25em 0;
+  text-align: justify;
+}
+
+
+/*nav bar*/
+.navigation {
+  display: -webkit-box;
+  display: -moz-box;
+
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -webkit-align-items: center;
+
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -webkit-justify-content: center;
+
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -webkit-align-items: center;
+
+  padding: 0;
+  margin: 0;
+
+  list-style-type: none;
+}
+
+.nav-item{
+  display: -webkit-box;
+
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+
+  /* I want 0 basis...*/
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -webkit-box-align: center;
+
+  min-width: 2em;
+
+  /*box-shadow: 0px 0px 0px white;*/
+  border-top: 1px solid #96d1f8;
+  background: #65a9d7;
+  background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+  background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+  background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+  background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+  background: -o-linear-gradient(top, #3e779d, #65a9d7);
+  padding: 10px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 1px;
+  -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+  -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+  box-shadow: rgba(0,0,0,1) 0 1px 0;
+  text-shadow: rgba(0,0,0,.4) 0 1px 0;
+  color: white;
+  font-size: 17px;
+  font-family: Georgia, Serif;
+  text-decoration: none;
+  vertical-align: middle;
+}
+.nav-item:hover {
+  border-top-color: #28597a;
+  background: #28597a;
+  color: #ccc;
+}
+.nav-item:active {
+  border-top-color: #1b435e;
+  background: #1b435e;
+}
+
+
+.nav-item:nth-child(1) {
+  order: 1;
+  flex: 0 1 auto;
+  align-self: auto;
+}
+
+.nav-item:nth-child(2) {
+  order: 2;
+  flex: 0 1 auto;
+  align-self: auto;
+}
+
+.nav-item:nth-child(3) {
+  order: 3;
+  flex: 0 1 auto;
+  align-self: auto;
+}
+
+.nav-item:nth-child(4) {
+  order: 4;
+  flex: 0 1 auto;
+  align-self: auto;
+}
+
+.nav-item:nth-child(5) {
+  order: 5;
+  flex: 0 1 auto;
+  align-self: auto;
+}
+

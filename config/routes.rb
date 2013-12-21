@@ -1,4 +1,13 @@
 FirstTeacher::Application.routes.draw do
+  #Root set to "home" page - app/views/static_pages/home.html.erb
+  root 'pages#mission'
+  match '/mission',   to: 'pages#mission',    via: 'get'
+  match '/program',   to: 'pages#program',    via: 'get'
+  match '/resources', to: 'pages#resources',  via: 'get'
+  match '/news',      to: 'pages#news',       via: 'get'
+  match '/contact',   to: 'pages#contact',    via: 'get'
+  
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
